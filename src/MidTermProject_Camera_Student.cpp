@@ -66,7 +66,7 @@ int main(int argc, const char *argv[])
 			{
 				continue;	
 			}
-			/*skip any detector SIFT test with descriptor ORB as it makes memory error*/
+			/*skip detector SIFT test with descriptor ORB as it makes memory error*/
 			if(detectorType.compare("SIFT") == 0 && descriptorType .compare("ORB") == 0)
 			{
 				continue;	
